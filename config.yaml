@@ -1,0 +1,42 @@
+# ==============================
+# Model Hyperparameters
+# ==============================
+
+gene_dim: 12072
+embedding_dim: 128
+num_heads: 4
+dropout: 0.2
+
+
+# ==============================
+# Training Parameters
+# ==============================
+
+learning_rate: 0.001
+weight_decay: 0.00001     # IMPORTANT: must be decimal, not 1e-5
+batch_size: 32
+num_epochs: 200
+early_stopping_patience: 20
+
+
+# ==============================
+# Learning Rate Scheduler
+# ==============================
+
+lr_decay_steps: 50
+lr_decay_gamma: 0.5
+
+
+# ==============================
+# Directories
+# ==============================
+
+results_dir: results
+data_dir: data/processed
+
+
+# ==============================
+# Logging
+# ==============================
+
+log_interval: 10

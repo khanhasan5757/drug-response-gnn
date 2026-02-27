@@ -1,0 +1,6 @@
+data/
+results/models/
+__pycache__/
+*.pt
+*.csv
+*.pth
